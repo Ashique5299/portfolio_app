@@ -1,7 +1,7 @@
 import React from "react";
 
 function Ashiq() {
-  return <div>Ashiq</div>;
+  return <div>Ashiq qqqqqqqqqqqqqqqq</div>;
 }
 
 export default Ashiq;
