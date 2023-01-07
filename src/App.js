@@ -4,10 +4,12 @@
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline text-primary">Ashiq</h1>
 
-      <h3 className="font-caveat text-background">hjgjhfkfghf</h3>
-      <h4>hhhhhh</h4>
+      <h1 className="text-3xl font-bold underline text-primary">
+        Hello world!
+      </h1>
+      <h3 className="font-caveat text-background">shawal</h3>
+
     </div>
   );
 }
