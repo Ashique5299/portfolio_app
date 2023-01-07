@@ -1,7 +1,7 @@
 import React from "react";
 
 function Shawal() {
-  return <div>Shawal</div>;
+  return <div>New Change</div>;
 }
 
 export default Shawal;
