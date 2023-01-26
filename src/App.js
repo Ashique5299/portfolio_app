@@ -1,11 +1,9 @@
-import Ashiq from "./Components/Ashiq";
-import Shawal from "./Components/Shawal";
+import TestimonialSliderComponent from "./Components/TestimonialComponent/TestimonialSliderComponent";
 
 function App() {
   return (
-    <div>
-      <Shawal />
-      <Ashiq />
+    <div className="mx-20">
+      <TestimonialSliderComponent />
     </div>
   );
 }
