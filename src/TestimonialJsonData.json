@@ -3,8 +3,9 @@
     "id": 1,
     "testimonialImage": "/Images/testi4-1.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "name": "ashik",
-    "position": "manager"
+    "name": "ashik wilson",
+    "position": "manager",
+    "testimonialFooterImage": "/Images/pat-2.png"
   },
   {
     "id": 2,

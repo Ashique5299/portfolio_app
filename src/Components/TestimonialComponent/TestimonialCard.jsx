@@ -10,9 +10,15 @@ function TestimonialCard({ item }) {
           alt="testimonialImage"
         />
         <div className="mt-10 mb-12">{item.description}</div>
-
-        <h1 className="text-2xl font-bold mb-1">{item.name}</h1>
-        <h1 className="">{item.position}</h1>
+        <div className="flex items-center">
+          <div className="whitespace-nowrap">
+            <h1 className="text-2xl font-bold mb-1">{item.name}</h1>
+            <h1 className="">{item.position}</h1>
+          </div>
+          <div>
+            <img src={item.testimonialFooterImage} alt="" srcset="" />
+          </div>
+        </div>
       </div>
     </div>
   );
