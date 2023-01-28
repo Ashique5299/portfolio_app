@@ -1,6 +1,7 @@
 import Contact from "./Components/ContactComponents/Contact";
 import HeroSection from "./Components/HeroComponents/HeroSection";
 import MyServices from "./Components/MyServicesComponents/MyServices";
+import PortfolioComponent from "./Components/ProtfolioComponent/PortfolioComponent";
 import TestimonialSliderComponent from "./Components/TestimonialComponent/TestimonialSliderComponent";
 import Footer from "./Layout/Footer";
 import Header from "./Layout/Header";
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <HeroSection />
       <MyServices />
-      <TestimonialSliderComponent />
+      <PortfolioComponent />
       <Contact />
       <Footer />
     </div>
