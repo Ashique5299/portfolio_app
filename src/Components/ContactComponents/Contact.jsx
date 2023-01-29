@@ -6,10 +6,13 @@ function Contact() {
   return (
     <Fragment>
       <div className="text-center my-10">
-        <div className="text-6xl font-jost font-semibold"> CONTACT ME</div>
+        <div className="text-3xl md:text-6xl font-jost font-semibold">
+          {" "}
+          CONTACT ME
+        </div>
         <div className="mt-4">
           <span className="text-lg font-semibold text-[#29a587]">LET'S</span>
-          <span className="text-2xl font-caveat font-bold ml-4">
+          <span className="text-xl md:text-2xl font-caveat font-bold ml-4">
             Talk About Ideas
           </span>
         </div>

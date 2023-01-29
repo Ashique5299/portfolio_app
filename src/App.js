@@ -1,6 +1,7 @@
 import Contact from "./Components/ContactComponents/Contact";
 import HeroSection from "./Components/HeroComponents/HeroSection";
 import MyServices from "./Components/MyServicesComponents/MyServices";
+import ProfessionalSkills from "./Components/ProfessionalSkillsComponents/ProfessionalSkills";
 import PortfolioComponent from "./Components/ProtfolioComponent/PortfolioComponent";
 import TestimonialSliderComponent from "./Components/TestimonialComponent/TestimonialSliderComponent";
 import Footer from "./Layout/Footer";
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <HeroSection />
       <MyServices />
+      <ProfessionalSkills />
       <PortfolioComponent />
       <Contact />
       <Footer />

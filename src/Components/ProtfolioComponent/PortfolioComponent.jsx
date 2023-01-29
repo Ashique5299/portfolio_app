@@ -18,10 +18,14 @@ function PortfolioComponent() {
   return (
     <div className="mt-20">
       <div className="text-center mb-10">
-        <div className="text-6xl font-jost font-semibold">PORTFOLIO</div>
+        <div className="text-3xl md:text-6xl font-jost font-semibold">
+          PORTFOLIO
+        </div>
         <div className="mt-4">
           <span className="text-lg font-semibold text-[#30cda6]">MY</span>
-          <span className="text-2xl font-caveat font-bold ml-4">Projects</span>
+          <span className="text-xl md:text-2xl font-caveat font-bold ml-4">
+            Projects
+          </span>
         </div>
       </div>
       <div className="flex justify-center space-x-4 mb-4">
