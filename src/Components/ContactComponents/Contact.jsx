@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 function Contact() {
   return (
     <Fragment>
-      <div className="text-center my-10">
+      <div className="text-center my-16">
         <div className="text-3xl md:text-6xl font-jost font-semibold">
           {" "}
           CONTACT ME
