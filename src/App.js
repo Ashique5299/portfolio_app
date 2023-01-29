@@ -17,7 +17,7 @@ function App() {
   };
   return (
     <div className="relative overflow-hidden">
-      <div className="mx-4 mb-20 md:mx-10">
+      <div className="px-4 mb-20 md:px-10 bg-gradient-to-b from-[#f0ebe3] to-[#ffffff] bg-white dark:bg-black">
         <Header menuOpen={menuOpen} toggleMenu={toggleMenu} />
         <HeaderButtonSection menuOpen={menuOpen} />
         <HeroSection />

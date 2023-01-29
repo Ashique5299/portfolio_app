@@ -25,11 +25,18 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
     <title>React App</title>
   </head>
-  <body style="background: linear-gradient(180deg, #f0ebe3, #ffffff)">
+  <body className="dark">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script src="https://unpkg.com/kursor"></script>
+    <script>
+      new kursor({
+        type: 2,
+        color: "#94a3b8",
+      });
+    </script>
   </body>
 </html>

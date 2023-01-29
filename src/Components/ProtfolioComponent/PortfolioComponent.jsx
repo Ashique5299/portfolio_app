@@ -71,941 +71,471 @@ function PortfolioComponent() {
         </h3>
       </div>
       {tab === 1 && (
-        <div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          </div>
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
         </div>
       )}
       {tab === 2 && (
-        <div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work1} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work1} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          </div>
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
         </div>
       )}
       {tab === 3 && (
-        <div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work2} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work2} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          </div>
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
         </div>
       )}
       {tab === 4 && (
-        <div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work3} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work3} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          </div>
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
         </div>
       )}
       {tab === 5 && (
-        <div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work4} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work4} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
-          <div className="md:flex">
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
+          </div>
+          <div className="p-4">
+            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+              <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
+                <img src={work7} alt="" />
+              </div>
+              <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
+                DEVELOPMENT
+              </h4>
+              <div>
+                <h2 className="font-bold mt-2 text-2xl">Explore</h2>
+                <p className="text-[#262626] opacity-70 mt-4">
+                  Web designers craft the overall vision & plan for website
+                  layout. Professional logo developement: Business, Company, or
+                  Personal
+                </p>
+              </div>
+              <div className="flex mt-20 group space-x-2 cursor-pointer">
+                <h4 className="font-semibold">View Project</h4>
+                <BsArrowRightShort
+                  size="24px"
+                  className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
                 />
               </div>
-            </div>
-            <div className="p-4">
-              <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
-                <div className="h-52  min-w-[340px] overflow-hidden flex justify-center items-center rounded-md">
-                  <img src={work7} alt="" />
-                </div>
-                <h4 className="font-semibold text-sm mt-6 text-[#29a587]">
-                  DEVELOPMENT
-                </h4>
-                <div>
-                  <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                  <p className="text-[#262626] opacity-70 mt-4">
-                    Web designers craft the overall vision & plan for website
-                    layout. Professional logo developement: Business, Company,
-                    or Personal
-                  </p>
-                </div>
-                <div className="flex mt-20 group space-x-2 cursor-pointer">
-                  <h4 className="font-semibold">View Project</h4>
-                  <BsArrowRightShort
-                    size="24px"
-                    className=" fill-[#29a587] cursor-pointer group-hover:translate-x-2"
-                  />
-                </div>
-                <img
-                  className="absolute w-24 h-24 -bottom-4 -right-4"
-                  src={pat2}
-                  alt=""
-                />
-              </div>
+              <img
+                className="absolute w-24 h-24 -bottom-4 -right-4"
+                src={pat2}
+                alt=""
+              />
             </div>
           </div>
         </div>
