@@ -63,7 +63,7 @@ function TestimonialSliderComponent() {
       </div>
       <Slider {...settings}>
         {testimonialData.map((item) => (
-          <div className="flex gap-5">
+          <div className="">
             <div className="mycard mx-9">
               <TestimonialCard item={item} />
             </div>
