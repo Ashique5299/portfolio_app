@@ -3,7 +3,7 @@ import React from "react";
 function CardInfo({ number, icon, text_upper, text_lower, className }) {
   return (
     <div
-      className={`${className} bg-white inline-flex justify-evenly items-center space-x-2 py-2 px-4 border-black border-[1.5px] rounded-full`}
+      className={`${className} bg-white dark:bg-[#222831] inline-flex justify-evenly items-center space-x-2 py-2 px-4 border-black dark:border-white border-[1.5px] rounded-full`}
     >
       <h2 className="text-lg font-bold">{number}</h2>
       {icon.length !== 0 && (

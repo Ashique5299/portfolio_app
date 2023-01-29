@@ -3,7 +3,7 @@ import { FaTwitter, FaFacebook, FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 dark:text-white">
       <div className="mt-6 w-full h-0.5 rounded-full bg-[#262626] opacity-20"></div>
       <div className="flex flex-col space-y-4 mt-20 md:flex-row md:items-center md:justify-between md:space-y-0">
         <div className="flex justify-center space-x-4">

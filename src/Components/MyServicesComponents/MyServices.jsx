@@ -48,8 +48,8 @@ function MyServices() {
     ],
   };
   return (
-    <div>
-      <div className="text-center mb-10">
+    <div className="dark:text-white">
+      <div className="text-center my-10">
         <div className="text-3xl md:text-6xl font-jost font-semibold">
           WHAT I DO
         </div>
@@ -62,11 +62,11 @@ function MyServices() {
       </div>
       <Slider {...settings} className="mx-4">
         <div className="p-4">
-          <div className="relative w-full bg-white p-6 rounded-md overflow-hidden gap-5">
+          <div className="relative w-full bg-white dark:bg-[#1d222a]  p-6 rounded-md overflow-hidden gap-5">
             <h4 className="font-semibold tex-">WEB DEVELOPMENT</h4>
             <div>
               <h2 className="font-bold mt-10 text-2xl">Web Design & Logo</h2>
-              <p className="text-[#262626] opacity-70 mt-4">
+              <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                 Web designers craft the overall vision & plan for website
                 layout. Professional logo developement: Business, Company, or
                 Personal
@@ -80,18 +80,18 @@ function MyServices() {
               />
             </div>
             <img
-              className="absolute w-24 h-24 -bottom-4 -right-4"
+              className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
               src={pat2}
               alt=""
             />
           </div>
         </div>
         <div className="p-4">
-          <div className="relative w-full bg-white p-6 rounded-md overflow-hidden gap-5">
+          <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden gap-5">
             <h4 className="font-semibold tex-">WEB DEVELOPMENT</h4>
             <div>
               <h2 className="font-bold mt-10 text-2xl">Web Design & Logo</h2>
-              <p className="text-[#262626] opacity-70 mt-4">
+              <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                 Web designers craft the overall vision & plan for website
                 layout. Professional logo developement: Business, Company, or
                 Personal
@@ -105,18 +105,18 @@ function MyServices() {
               />
             </div>
             <img
-              className="absolute w-24 h-24 -bottom-4 -right-4"
+              className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
               src={pat2}
               alt=""
             />
           </div>
         </div>
         <div className="p-4">
-          <div className="relative w-full bg-white p-6 rounded-md overflow-hidden gap-5">
+          <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden gap-5">
             <h4 className="font-semibold tex-">WEB DEVELOPMENT</h4>
             <div>
               <h2 className="font-bold mt-10 text-2xl">Web Design & Logo</h2>
-              <p className="text-[#262626] opacity-70 mt-4">
+              <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                 Web designers craft the overall vision & plan for website
                 layout. Professional logo developement: Business, Company, or
                 Personal
@@ -130,18 +130,18 @@ function MyServices() {
               />
             </div>
             <img
-              className="absolute w-24 h-24 -bottom-4 -right-4"
+              className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
               src={pat2}
               alt=""
             />
           </div>
         </div>
         <div className="p-4">
-          <div className="relative w-full bg-white p-6 rounded-md overflow-hidden gap-5">
+          <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden gap-5">
             <h4 className="font-semibold tex-">WEB DEVELOPMENT</h4>
             <div>
               <h2 className="font-bold mt-10 text-2xl">Web Design & Logo</h2>
-              <p className="text-[#262626] opacity-70 mt-4">
+              <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                 Web designers craft the overall vision & plan for website
                 layout. Professional logo developement: Business, Company, or
                 Personal
@@ -155,18 +155,18 @@ function MyServices() {
               />
             </div>
             <img
-              className="absolute w-24 h-24 -bottom-4 -right-4"
+              className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
               src={pat2}
               alt=""
             />
           </div>
         </div>
         <div className="p-4">
-          <div className="relative w-full bg-white p-6 rounded-md overflow-hidden gap-5">
+          <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden gap-5">
             <h4 className="font-semibold tex-">WEB DEVELOPMENT</h4>
             <div>
               <h2 className="font-bold mt-10 text-2xl">Web Design & Logo</h2>
-              <p className="text-[#262626] opacity-70 mt-4">
+              <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                 Web designers craft the overall vision & plan for website
                 layout. Professional logo developement: Business, Company, or
                 Personal
@@ -180,7 +180,7 @@ function MyServices() {
               />
             </div>
             <img
-              className="absolute w-24 h-24 -bottom-4 -right-4"
+              className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
               src={pat2}
               alt=""
             />

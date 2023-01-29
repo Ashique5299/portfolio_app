@@ -8,7 +8,7 @@ import { FaTwitter, FaFacebook, FaGithub } from "react-icons/fa";
 function HeroSection() {
   return (
     <Fragment>
-      <div className="my-10 md:hidden">
+      <div className="my-10 md:hidden dark:text-white">
         <div className="text-center">
           <h4 className="text-sm font-semibold">
             HELLO, <span className="text-[#29a587]">MY NAME IS</span>{" "}
@@ -26,17 +26,17 @@ function HeroSection() {
         </div>
         <div className="relative h-80">
           <img
-            className="absolute w-28 top-12 left-1/2 translate-x-1/5"
+            className="absolute w-28 top-12 left-1/2 translate-x-1/5 dark:invert"
             src={pat1}
             alt=""
           />
           <img
-            className="absolute w-20 bottom-4 right-1/2 -translate-x-2/3"
+            className="absolute w-20 bottom-4 right-1/2 -translate-x-2/3 dark:invert"
             src={pat2}
             alt=""
           />
           <img
-            className="absolute w-20 bottom-0 left-1/2 translate-x-1/2"
+            className="absolute w-20 bottom-0 left-1/2 translate-x-1/2 dark:invert"
             src={pat2}
             alt=""
           />
@@ -61,7 +61,7 @@ function HeroSection() {
             text_lower={"EXPERIENCE"}
           />
         </div>
-        <p className="text-[#262626] text-center mx-12 text-md mt-8 opacity-70">
+        <p className="text-[#262626] dark:text-white text-center mx-12 text-md mt-8 opacity-70">
           From France, Paris. I have rich experience in web design, also I am
           good at wordpress. I love to talk with you about out unique
         </p>
@@ -80,16 +80,16 @@ function HeroSection() {
           />
         </div>
         <div className="flex justify-center mt-8">
-          <button className="border-black border-2 py-2 px-4 rounded-full drop-shadow-lg bg-[#f0ebe3] opacity-80">
+          <button className="border-black dark:border-white border-2 py-2 px-4 rounded-full drop-shadow-lg bg-[#f0ebe3] dark:bg-[#222831] opacity-80">
             DOWNLOAD CV
           </button>
         </div>
         <div className="flex flex-col items-center space-y-4">
-          <div className="mt-6 w-0.5 h-16 rounded bg-black"></div>
+          <div className="mt-6 w-0.5 h-16 rounded bg-black dark:bg-white"></div>
           <h3 className="font-semibold">MY SKILLS</h3>
         </div>
       </div>
-      <div className="hidden md:grid md:grid-cols-2">
+      <div className="hidden dark:text-white md:grid md:grid-cols-2">
         <div>
           <div className="text-left">
             <h4 className="text-lg font-semibold">
@@ -106,7 +106,7 @@ function HeroSection() {
               </span>
             </h4>
           </div>
-          <p className="text-[#262626] text-left text-md mt-8 mr-2 opacity-70 text-lg z-10">
+          <p className="text-[#262626] dark:text-white text-left text-md mt-8 mr-2 opacity-70 text-lg z-10">
             From France, Paris. I have rich experience in web design, also I am
             good at wordpress. I love to talk with you about out unique
           </p>
@@ -125,19 +125,31 @@ function HeroSection() {
             />
           </div>
           <div className="flex justify-start mt-8">
-            <button className="border-black border-2 py-4 px-8 rounded-full drop-shadow-lg bg-[#f0ebe3] opacity-80">
+            <button className="border-black dark:border-white border-2 py-4 px-8 rounded-full drop-shadow-lg bg-[#f0ebe3] dark:bg-[#222831] opacity-80">
               DOWNLOAD CV
             </button>
             <div className="flex items-center space-x-4">
-              <div className="h-0.5 w-16 rounded bg-black"></div>
+              <div className="h-0.5 w-16 rounded bg-black dark:bg-white"></div>
               <h3 className="font-semibold">MY SKILLS</h3>
             </div>
           </div>
         </div>
         <div className="relative h-[500px]">
-          <img className="absolute w-48 -top-20 right-0" src={pat1} alt="" />
-          <img className="absolute w-40 bottom-20 -left-20" src={pat2} alt="" />
-          <img className="absolute w-40 bottom-0 right-0" src={pat2} alt="" />
+          <img
+            className="absolute w-48 -top-20 right-0 dark:invert"
+            src={pat1}
+            alt=""
+          />
+          <img
+            className="absolute w-40 bottom-20 -left-20 dark:invert"
+            src={pat2}
+            alt=""
+          />
+          <img
+            className="absolute w-40 bottom-0 right-0 dark:invert"
+            src={pat2}
+            alt=""
+          />
           <div className="absolute bottom-0 left-0 bg-[#29a587] w-[580px] h-[580px] rounded-full" />
           <img
             className="absolute bottom-0 left-0 max-w-[580px] w-[580px] h-[675px] rounded-b-full"

@@ -12,7 +12,7 @@ function ResumeComponent() {
   };
 
   return (
-    <div className="mt-20 mx-2">
+    <div className="mt-20 mx-2 dark:text-white">
       <div className="text-center">
         <div className="text-3xl md:text-6xl font-jost font-semibold">
           RESUME
@@ -29,7 +29,7 @@ function ResumeComponent() {
           <h2 className="text-center text-xl md:text-4xl font-semibold my-8">
             EDUCATION
           </h2>
-          <div className="w-full h-0.5 bg-black" />
+          <div className="w-full h-0.5 bg-black dark:bg-white " />
           <div>
             <h2 className="font-semibold text-lg md:text-2xl ml-4 my-6">
               CoderHouse Courses
@@ -45,14 +45,14 @@ function ResumeComponent() {
                 </h3>
                 <h5 className="font-semibold text-sm md:text-lg">2014-2016</h5>
               </div>
-              <p className="text-[#262626] my-6">
+              <p className="text-[#262626] dark:text-white my-6">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 at qui dolores, eaque ipsa minima.
               </p>
             </div>
-            <div className="w-full h-0.5 bg-black relative">
+            <div className="w-full h-0.5 bg-black dark:bg-white relative">
               <div
-                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex justify-center items-center border-2 border-black text-2xl cursor-pointer"
+                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white dark:bg-[#1d222a] rounded-full flex justify-center items-center border-2 border-black dark:border-white text-2xl cursor-pointer"
                 onClick={() => changeTab(1)}
               >
                 {tab === 1 ? "-" : "+"}
@@ -74,14 +74,14 @@ function ResumeComponent() {
                 </h3>
                 <h5 className="font-semibold text-sm md:text-lg">2014-2016</h5>
               </div>
-              <p className="text-[#262626] my-6">
+              <p className="text-[#262626] dark:text-white my-6">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 at qui dolores, eaque ipsa minima.
               </p>
             </div>
-            <div className="w-full h-0.5 bg-black relative">
+            <div className="w-full h-0.5 bg-black dark:bg-white relative">
               <div
-                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex justify-center items-center border-2 border-black text-2xl cursor-pointer"
+                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white dark:bg-[#1d222a] rounded-full flex justify-center items-center border-2 border-black dark:border-white text-2xl cursor-pointer"
                 onClick={() => changeTab(2)}
               >
                 {tab === 2 ? "-" : "+"}
@@ -93,7 +93,7 @@ function ResumeComponent() {
           <h2 className="text-center text-xl md:text-4xl font-semibold my-8">
             EXPERIENCE
           </h2>
-          <div className="w-full h-0.5 bg-black" />
+          <div className="w-full h-0.5 bg-black dark:bg-white" />
           <div>
             <h2 className="font-semibold text-lg md:text-2xl ml-4 my-6">
               CoderHouse Courses
@@ -109,14 +109,14 @@ function ResumeComponent() {
                 </h3>
                 <h5 className="font-semibold text-sm md:text-lg">2014-2016</h5>
               </div>
-              <p className="text-[#262626] my-6">
+              <p className="text-[#262626] dark:text-white my-6">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 at qui dolores, eaque ipsa minima.
               </p>
             </div>
-            <div className="w-full h-0.5 bg-black relative">
+            <div className="w-full h-0.5 bg-black dark:bg-white relative">
               <div
-                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex justify-center items-center border-2 border-black text-2xl cursor-pointer"
+                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white dark:bg-[#1d222a] rounded-full flex justify-center items-center border-2 border-black dark:border-white text-2xl cursor-pointer"
                 onClick={() => changeTab(4)}
               >
                 {tab === 4 ? "-" : "+"}
@@ -138,14 +138,14 @@ function ResumeComponent() {
                 </h3>
                 <h5 className="font-semibold text-sm md:text-lg">2014-2016</h5>
               </div>
-              <p className="text-[#262626] my-6">
+              <p className="text-[#262626] dark:text-white my-6">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 at qui dolores, eaque ipsa minima.
               </p>
             </div>
-            <div className="w-full h-0.5 bg-black relative">
+            <div className="w-full h-0.5 bg-black dark:bg-white relative">
               <div
-                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex justify-center items-center border-2 border-black text-2xl cursor-pointer"
+                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white dark:bg-[#1d222a] rounded-full flex justify-center items-center border-2 border-black dark:border-white text-2xl cursor-pointer"
                 onClick={() => changeTab(3)}
               >
                 {tab === 3 ? "-" : "+"}
@@ -167,14 +167,14 @@ function ResumeComponent() {
                 </h3>
                 <h5 className="font-semibold text-sm md:text-lg">2014-2016</h5>
               </div>
-              <p className="text-[#262626] my-6">
+              <p className="text-[#262626] dark:text-white my-6">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 at qui dolores, eaque ipsa minima.
               </p>
             </div>
-            <div className="w-full h-0.5 bg-black relative">
+            <div className="w-full h-0.5 bg-black dark:bg-white relative">
               <div
-                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex justify-center items-center border-2 border-black text-2xl cursor-pointer"
+                className="absolute right-0 z-10 translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white dark:bg-[#1d222a] rounded-full flex justify-center items-center border-2 border-black dark:border-white text-2xl cursor-pointer"
                 onClick={() => changeTab(5)}
               >
                 {tab === 5 ? "-" : "+"}

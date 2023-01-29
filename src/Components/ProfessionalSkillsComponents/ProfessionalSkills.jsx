@@ -2,7 +2,7 @@ import React from "react";
 
 function ProfessionalSkills() {
   return (
-    <div className="mt-20">
+    <div className="mt-20 dark:text-white">
       <div className="text-center mb-10">
         <div className="text-3xl md:text-6xl font-jost font-semibold">
           PROFESSIONAL SKILLS
@@ -29,8 +29,8 @@ function ProfessionalSkills() {
             </p>
           </div>
           <div className="w-full h-0.5 bg-slate-400">
-            <div className="bg-black h-0.5 w-[85%]"></div>
-            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] -translate-y-3.5 border-2 border-black" />
+            <div className="bg-black dark:bg-[#29a587] h-0.5 w-[85%]"></div>
+            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] dark:bg-[#1d222a] -translate-y-3.5 border-2 border-black dark:border-white" />
           </div>
         </div>
         <div className="">
@@ -47,8 +47,8 @@ function ProfessionalSkills() {
             </p>
           </div>
           <div className="w-full h-0.5 bg-slate-400">
-            <div className="bg-black h-0.5 w-[85%]"></div>
-            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] -translate-y-3.5 border-2 border-black" />
+            <div className="bg-black dark:bg-[#29a587] h-0.5 w-[85%]"></div>
+            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] dark:bg-[#1d222a] -translate-y-3.5 border-2 border-black dark:border-white" />
           </div>
         </div>
         <div className="">
@@ -65,8 +65,8 @@ function ProfessionalSkills() {
             </p>
           </div>
           <div className="w-full h-0.5 bg-slate-400">
-            <div className="bg-black h-0.5 w-[85%]"></div>
-            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] -translate-y-3.5 border-2 border-black" />
+            <div className="bg-black dark:bg-[#29a587] h-0.5 w-[85%]"></div>
+            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] dark:bg-[#1d222a] -translate-y-3.5 border-2 border-black dark:border-white" />
           </div>
         </div>
         <div className="">
@@ -83,8 +83,8 @@ function ProfessionalSkills() {
             </p>
           </div>
           <div className="w-full h-0.5 bg-slate-400">
-            <div className="bg-black h-0.5 w-[85%]"></div>
-            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] -translate-y-3.5 border-2 border-black" />
+            <div className="bg-black dark:bg-[#29a587] h-0.5 w-[85%]"></div>
+            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] dark:bg-[#1d222a] -translate-y-3.5 border-2 border-black dark:border-white" />
           </div>
         </div>
         <div className="">
@@ -101,8 +101,8 @@ function ProfessionalSkills() {
             </p>
           </div>
           <div className="w-full h-0.5 bg-slate-400">
-            <div className="bg-black h-0.5 w-[85%]"></div>
-            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] -translate-y-3.5 border-2 border-black" />
+            <div className="bg-black dark:bg-[#29a587] h-0.5 w-[85%]"></div>
+            <div className="ml-[85%] w-6 h-6 rounded-full bg-[#29a587] dark:bg-[#1d222a] -translate-y-3.5 border-2 border-black dark:border-white" />
           </div>
         </div>
       </div>

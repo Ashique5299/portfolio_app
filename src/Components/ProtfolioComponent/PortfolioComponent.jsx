@@ -16,7 +16,7 @@ function PortfolioComponent() {
   };
 
   return (
-    <div className="mt-20">
+    <div className="mt-20 dark:text-white">
       <div className="text-center mb-10">
         <div className="text-3xl md:text-6xl font-jost font-semibold">
           PORTFOLIO
@@ -73,7 +73,7 @@ function PortfolioComponent() {
       {tab === 1 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -82,7 +82,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -96,14 +96,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -112,7 +112,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -126,14 +126,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -142,7 +142,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -156,7 +156,7 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
@@ -167,7 +167,7 @@ function PortfolioComponent() {
       {tab === 2 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work1} alt="" />
               </div>
@@ -176,7 +176,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -190,14 +190,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -206,7 +206,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -220,14 +220,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -236,7 +236,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -250,7 +250,7 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
@@ -261,7 +261,7 @@ function PortfolioComponent() {
       {tab === 3 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work2} alt="" />
               </div>
@@ -270,7 +270,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -284,14 +284,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -300,7 +300,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -314,14 +314,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -330,7 +330,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -344,7 +344,7 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
@@ -355,7 +355,7 @@ function PortfolioComponent() {
       {tab === 4 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work3} alt="" />
               </div>
@@ -364,7 +364,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -378,14 +378,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -394,7 +394,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -408,14 +408,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -424,7 +424,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -438,7 +438,7 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
@@ -449,7 +449,7 @@ function PortfolioComponent() {
       {tab === 5 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52 w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work4} alt="" />
               </div>
@@ -458,7 +458,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -472,14 +472,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -488,7 +488,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -502,14 +502,14 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
             </div>
           </div>
           <div className="p-4">
-            <div className="relative w-full bg-white p-6 rounded-md overflow-hidden">
+            <div className="relative w-full bg-white dark:bg-[#1d222a] p-6 rounded-md overflow-hidden">
               <div className="h-52  w-full overflow-hidden flex justify-center items-center rounded-md">
                 <img src={work7} alt="" />
               </div>
@@ -518,7 +518,7 @@ function PortfolioComponent() {
               </h4>
               <div>
                 <h2 className="font-bold mt-2 text-2xl">Explore</h2>
-                <p className="text-[#262626] opacity-70 mt-4">
+                <p className="text-[#262626] dark:text-white opacity-70 mt-4">
                   Web designers craft the overall vision & plan for website
                   layout. Professional logo developement: Business, Company, or
                   Personal
@@ -532,7 +532,7 @@ function PortfolioComponent() {
                 />
               </div>
               <img
-                className="absolute w-24 h-24 -bottom-4 -right-4"
+                className="absolute w-24 h-24 -bottom-4 -right-4 dark:invert"
                 src={pat2}
                 alt=""
               />
@@ -541,7 +541,7 @@ function PortfolioComponent() {
         </div>
       )}
       <div className="flex justify-center mt-8">
-        <button className="border-black border-2 py-2 px-4 rounded-full drop-shadow-lg bg-white opacity-80">
+        <button className="border-black dark:border-white border-2 py-2 px-4 rounded-full drop-shadow-lg bg-white dark:bg-[#1d222a] opacity-80">
           VIEW MORE
         </button>
       </div>
